@@ -1,7 +1,7 @@
 <?php
 $fruits = array("Avocado", "Blueberry", "Cherry");
 
-// Menambahkan 5 data baru dengan perulangan for
+// menambahkan 5 data baru dengan perulangan for
 for ($i = 1; $i <= 5; $i++) {
     $fruits[] = "Buah Tambahan " . $i;
 }

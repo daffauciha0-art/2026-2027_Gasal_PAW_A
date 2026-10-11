@@ -13,7 +13,7 @@ $output = array();
 foreach($height as $k => $v) { $output[] = "\"$k\"=>\"$v\""; }
 echo "height = (" . implode(", ", $output) . ")<br>";
 
-// Menampilkan nilai dengan indeks terakhir
+// menampilkan nilai dengan indeks terakhir
 $lastKey = array_key_last($height);
 echo "Nilai dengan indeks terakhir: " . $height[$lastKey] . "<br>";
 
