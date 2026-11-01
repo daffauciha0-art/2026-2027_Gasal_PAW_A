@@ -4,7 +4,7 @@ $praktikum = ["JARKOM", "PAW"];
 
 $jumlahMatkul = count($matkul);
 
-for ($i = 0; $i < $jumlahMatkul; $i++) {
+for ($i = 0; $i < $jumlahMatkul+; $i++) {
     // Pengecekan jika data $matkul dan $praktikum sama
     if (in_array($matkul[$i], $praktikum)) {
         echo "Saya sedang mengambil matkul " . $matkul[$i] . " termasuk praktikum nya<br>";

@@ -20,7 +20,7 @@ function printStudentsArray($arr) {
         echo '<br>';
     }
     echo ")<br><br>";
-}
+}x
 
 // menampilkan data awal
 echo "Data awal:<br>";
